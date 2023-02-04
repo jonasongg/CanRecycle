@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_fragment_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/title_fragment_summary_1"
+        android:textAppearance="@style/FragmentTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/paper_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="-20dp"
+        app:layout_constraintBottom_toTopOf="@+id/glass_container"
+        app:layout_constraintEnd_toEndOf="@+id/paper_icon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/paper_icon"
+        app:layout_constraintTop_toBottomOf="@+id/title_fragment_summary"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg_white_rounded"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/paper_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/paper"
+        android:textAppearance="@style/EmphasisText"
+        app:layout_constraintEnd_toEndOf="@+id/paper_icon"
+        app:layout_constraintStart_toStartOf="@+id/paper_icon"
+        app:layout_constraintTop_toBottomOf="@+id/paper_icon" />
+
+    <ImageView
+        android:id="@+id/paper_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/plastic_icon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/paper_container"
+        app:srcCompat="@drawable/_paper_icon" />
+
+    <ImageView
+        android:id="@+id/plastic_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="-20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/paper_name"
+        app:layout_constraintEnd_toEndOf="@+id/plastic_icon"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/plastic_icon"
+        app:layout_constraintTop_toTopOf="@+id/plastic_icon"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg_white_rounded"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/plastic_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/plastic"
+        android:textAppearance="@style/EmphasisText"
+        app:layout_constraintEnd_toEndOf="@+id/plastic_icon"
+        app:layout_constraintStart_toStartOf="@+id/plastic_icon"
+        app:layout_constraintTop_toBottomOf="@+id/plastic_icon" />
+
+    <ImageView
+        android:id="@+id/plastic_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/paper_icon"
+        app:layout_constraintTop_toTopOf="@+id/paper_icon"
+        app:srcCompat="@drawable/_plastic_icon" />
+
+    <ImageView
+        android:id="@+id/glass_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="-20dp"
+        app:layout_constraintBottom_toTopOf="@+id/others_container"
+        app:layout_constraintEnd_toEndOf="@+id/glass_icon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/glass_icon"
+        app:layout_constraintTop_toBottomOf="@+id/paper_container"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg_white_rounded"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/glass_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/glass"
+        android:textAppearance="@style/EmphasisText"
+        app:layout_constraintEnd_toEndOf="@+id/glass_icon"
+        app:layout_constraintStart_toStartOf="@+id/glass_icon"
+        app:layout_constraintTop_toBottomOf="@+id/glass_icon" />
+
+    <ImageView
+        android:id="@+id/glass_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/metal_icon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/glass_container"
+        app:srcCompat="@drawable/_glass_icon" />
+
+    <ImageView
+        android:id="@+id/metal_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="-20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/metal_name"
+        app:layout_constraintEnd_toEndOf="@+id/metal_icon"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/metal_icon"
+        app:layout_constraintTop_toTopOf="@+id/metal_icon"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg_white_rounded"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/metal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/metal"
+        android:textAppearance="@style/EmphasisText"
+        app:layout_constraintEnd_toEndOf="@+id/metal_icon"
+        app:layout_constraintStart_toStartOf="@+id/metal_icon"
+        app:layout_constraintTop_toBottomOf="@+id/metal_icon" />
+
+    <ImageView
+        android:id="@+id/metal_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/glass_icon"
+        app:layout_constraintTop_toTopOf="@+id/glass_icon"
+        app:srcCompat="@drawable/_metal_icon" />
+
+    <ImageView
+        android:id="@+id/others_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="-20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/others_name"
+        app:layout_constraintEnd_toEndOf="@+id/others_icon"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/others_icon"
+        app:layout_constraintTop_toBottomOf="@+id/glass_container"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg_white_rounded"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/others_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/others"
+        android:textAppearance="@style/EmphasisText"
+        app:layout_constraintEnd_toEndOf="@+id/others_icon"
+        app:layout_constraintStart_toStartOf="@+id/others_icon"
+        app:layout_constraintTop_toBottomOf="@+id/others_icon" />
+
+    <ImageView
+        android:id="@+id/others_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/others_container"
+        app:srcCompat="@drawable/_others_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

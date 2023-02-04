@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#000000">
+    <group>
+        <item
+            android:name="option_paper"
+            android:title="Paper" />
+        <item
+            android:name="option_plastic"
+            android:title="Plastic" />
+        <item
+            android:name="option_glass"
+            android:title="Glass" />
+        <item
+            android:name="option_metal"
+            android:title="Metal" />
+        <item
+            android:name="option_others"
+            android:title="Others" />
+    </group>
+    <group>
+        <item
+            android:name="option_none"
+            android:title="None" />
+    </group>
+</menu>

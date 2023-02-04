@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">CanRecycle</string>
+    <string name="bottom_navigation_1">Check</string>
+    <string name="bottom_navigation_2">Search</string>
+    <string name="bottom_navigation_3">List</string>
+    <string name="title_fragment_list">List of items</string>
+    <string name="item_name_header">Item</string>
+    <string name="item_type_header">Material</string>
+    <string name="title_fragment_search">Search item</string>
+    <string name="search_hint">e.g. cardboard box</string>
+    <string name="item_material_title">Material:</string>
+    <string name="item_treatment_title">Treatment:</string>
+    <string name="item_description_title">Description:</string>
+    <string name="title_fragment_check">Quick Check!</string>
+    <string name="check_title_1">Item is paper, plastic, glass, or metal</string>
+    <string name="check_title_2">It is clean</string>
+    <string name="check_body_1">If it\'s not, don\'t recycle it!</string>
+    <string name="check_body_2">As long as it doesn\'t attract pests</string>
+    <string name="check_body_3">Dispose it if it can\'t be cleaned</string>
+    <string name="bullet_point">\u2022</string>
+    <string name="check_button">Quick Summary \u2192</string>
+    <string name="title_fragment_summary_1">Item material</string>
+    <string name="paper">Paper</string>
+    <string name="plastic">Plastic</string>
+    <string name="glass">Glass</string>
+    <string name="metal">Metal</string>
+    <string name="others">Others</string>
+
+    <!-- NAME|MATERIAL|RECYCLABLE/NON-RECYCLABLE|TREATMENT|DESCRIPTION -->
+    <string-array name="item_list">
+        <item>Printed paper|Paper|Recyclable||Glossy and non-glossy</item>
+        <item>Writing paper|Paper|Recyclable||</item>
+        <item>Newspaper|Paper|Recyclable||</item>
+        <item>Flyer|Paper|Recyclable||Glossy and non-glossy</item>
+        <item>Brochure|Paper|Recyclable||Glossy and non-glossy</item>
+        <item>Magazine|Paper|Recyclable||Glossy and non-glossy</item>
+        <item>Book|Paper|Recyclable|Donate if it can be reused|</item>
+        <item>Telephone directory|Paper|Recyclable||</item>
+        <item>Envelope|Paper|Recyclable||With and without plastic window</item>
+        <item>Red packet|Paper|Recyclable||</item>
+        <item>Namecard|Paper|Recyclable||</item>
+        <item>Calendar|Paper|Recyclable||</item>
+        <item>Greeting card|Paper|Recyclable||</item>
+        <item>Gift wrapping paper|Paper|Recyclable||</item>
+        <item>Shredded paper|Paper|Recyclable||</item>
+        <item>Paper receipt|Paper|Recyclable||</item>
+        <item>Cardboard box|Paper|Recyclable|Flatten before recycling|</item>
+        <item>Paper packaging|Paper|Recyclable|Flatten before recycling|E.g. printed paper box etc</item>
+        <item>Egg tray|Paper|Recyclable||</item>
+        <item>Beverage carton|Paper|Recyclable|Flatten, empty and rinse when necessary before recycling|E.g. milk, juice and drink packet</item>
+        <item>Paper towel and toilet roll tube|Paper|Recyclable||</item>
+        <item>Tissue box|Paper|Recyclable|Flatten before recycling|</item>
+        <item>Paper bag|Paper|Recyclable||</item>
+        <item>Used paper disposables|Paper|Non-recyclable|Dispose as general waste|E.g. paper cup, plate etc</item>
+        <item>Tissue paper|Paper|Non-recyclable|Dispose as general waste|</item>
+        <item>Paper towel|Paper|Non-recyclable|Dispose as general waste|</item>
+        <item>Toilet paper|Paper|Non-recyclable|Dispose as general waste|</item>
+        <item>Disposable wooden chopstick|Paper|Non-recyclable|Dispose as general waste|</item>
+        <item>Wax paper|Paper|Non-recyclable|Dispose as general waste|</item>
+        <item>Paper packaging that are contaminated with food|Paper|Non-recyclable|Dispose as general waste|</item>
+        <item>Plastic bottle/container - Food or Beverage|Plastic|Recyclable|Rinse when necessary|E.g. PET, PP or PS: mineral bottles/container, carbonated and non-carbonated drink, ice cream containers etc</item>
+        <item>Plastic bottle/container - Non-food|Plastic|Recyclable|Rinse when necessary|E.g. HDPE containers, shampoo, bodywash, facial cleanser, detergent etc</item>
+        <item>CD/DVD and CD/DVD casing|Plastic|Recyclable||</item>
+        <item>Plastic bag|Plastic|Recyclable||Except for oxo- and bio-degradable bags, see no.42</item>
+        <item>Plastic film/flexible packaging|Plastic|Recyclable||E.g. magazine wrapper, film packaging for packet drinks, bubble wrap etc.</item>
+        <item>Plastic packaging|Plastic|Recyclable|Empty contents before recycling|E.g. sliced bread bag and egg trays</item>
+        <item>Plastic clothes hanger|Plastic|Recyclable||</item>
+        <item>Non-polystyrene foam takeaway food container|Plastic|Recyclable|Rinse when necessary|</item>
+        <item>Polystyrene foam product|Plastic|Non-recyclable|Dispose as general waste|E.g. Styrofoam cup, clam shell- container</item>
+        <item>Plastic disposables - cutlery and crockery|Plastic|Non-recyclable|Dispose as general waste|</item>
+        <item>Plastic packaging with foil|Plastic|Non-recyclable|Dispose as general waste|E.g. potato chip bags, empty blister pack etc</item>
+        <item>Oxo- and bio-degradable bags|Plastic|Non-recyclable|Dispose as general waste|</item>
+        <item>Drinking straw|Plastic|Non-recyclable|Dispose as general waste|</item>
+        <item>Cassette and video tape|Plastic|Non-recyclable|Dispose as general waste|</item>
+        <item>Plastic packaging contaminated with food|Plastic|Non-recyclable|Dispose as general waste|</item>
+        <item>Melamine products|Plastic|Non-recyclable|Dispose as general waste|E.g. Melamine cups, melamine plates etc</item>
+        <item>Glass bottle - Beverage|Glass|Recyclable|Rinse when necessary|E.g. carbonated drink, beer and wine</item>
+        <item>Glass bottle - Food|Glass|Recyclable|Rinse when necessary|E.g. sauce and condiment bottle, jam spread etc</item>
+        <item>Glass bottle - Cosmetic|Glass|Recyclable|Rinse when necessary|</item>
+        <item>Glass bottle - Medicine and supplement|Glass|Recyclable|Rinse when necessary|</item>
+        <item>Glassware - Cup, plate|Glass|Recyclable||</item>
+        <item>Borosilicate or Pyrex glassware|Glass|Non-recyclable|Dispose as general waste|E.g. bakeware</item>
+        <item>Windows|Glass|Non-recyclable|Dispose as general waste|</item>
+        <item>Mirror|Glass|Non-recyclable|Donate if it can be reused|</item>
+        <item>Ceramic product|Glass|Non-recyclable|Donate if it can be reused|E.g. ceramic plate, tea pot etc</item>
+        <item>Light bulb|Glass|Non-recyclable|Can be recycled at specific e-waste collection points which can be found on here.|</item>
+        <item>Metal can - Beverage|Metal|Recyclable|Rinse when necessary|E.g. carbonated drink, beer etc</item>
+        <item>Metal can - Food|Metal|Recyclable|Rinse when necessary|E.g. biscuit and food tin, canned food</item>
+        <item>Metal bottle cap|Metal|Recyclable||</item>
+        <item>Aerosol can|Metal|Recyclable|Empty contents before recycling|</item>
+        <item>Clean aluminium tray and foil|Metal|Recyclable|Rinse when necessary|</item>
+        <item>Metal container - Non-food|Metal|Recyclable|Empty contents before recycling|E.g. paint container</item>
+        <item>IT accessories|Others|Non-recyclable|Can be recycled at specific e-waste collection points which can be found on here.|E.g. cable, mouse, keyboard etc</item>
+        <item>Electronic waste|Others|Non-recyclable|Can be recycled at specific e-waste collection points which can be found on here.|E.g. Used mobile phone, tablet, laptop</item>
+        <item>Rechargable battery|Others|Non-recyclable|Can be recycled at specific e-waste collection points which can be found on here.|</item>
+        <item>Household battery|Others|Non-recyclable|Can be recycled at specific e-waste collection points which can be found on here.|</item>
+        <item>Old items which cannot be reused|Others|Non-recyclable|Dispose as general waste|E.g. clothes, shoes, bag, soft toy, umbrella etc</item>
+        <item>Old items which can be reused|Others|Non-recyclable|Donate if it can be reused (Note: old clothes can also be repurposed into cleaning cloths, or damping and insulating materials)|E.g. clothes, shoes, bag, soft toy, umbrella, spectacle etc</item>
+        <item>Food waste|Others|Non-recyclable|Dispose as general waste|</item>
+        <item>Leftover medicine|Others|Non-recyclable|Dispose as general waste|</item>
+        <item>Diaper and sanitary pad|Others|Non-recyclable|Dispose as general waste|</item>
+        <item>Stationery - Pen and pencil|Others|Non-recyclable|Donate if it can be reused|</item>
+        <item>Plant and horticultural waste|Others|Non-recyclable|Only for landed estates: bag and place outside your unit on collection days|</item>
+        <item>Luggage bag|Others|Non-recyclable|Donate if it can be reused|</item>
+        <item>Electrical fan|Others|Non-recyclable|Donate or send for repair if it can be reused. HDB residents can contact Town Council to dispose item through bulky waste removal service. Item can also be disposed at Cash-for-Trash stations that accepts electrical and electronic products. If not, dispose as general waste. Household appliances are not accepted for recycling in the blue bin or e-waste bins|</item>
+        <item>Bulky waste|Others|Non-recyclable|Donate if it can be reused. Contact Town council to remove from your residential premises.|E.g. Furniture, standing fan etc</item>
+    </string-array>
+</resources>

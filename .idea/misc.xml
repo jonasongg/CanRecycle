@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/drawable/_recyclable_banner.xml" value="0.2585" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/drawable/bg_pic_rounded.xml" value="0.2585" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/drawable/bg_white_rounded.xml" value="0.2585" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.2585" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.2585" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/fragment_check.xml" value="0.264" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/fragment_item.xml" value="0.264" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/fragment_list.xml" value="0.264" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/fragment_search.xml" value="0.2" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/fragment_summary.xml" value="0.2" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/fragment_summary2.xml" value="0.4" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/list_row.xml" value="0.264" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/search_row.xml" value="0.536" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/summary_header_row.xml" value="0.24625908507909364" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/layout/test.xml" value="1.6876712328767123" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.3" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/menu/filter_material_menu.xml" value="0.1" />
+        <entry key="..\:/Users/ongjo/AndroidStudioProjects/CanRecycle/app/src/main/res/xml/searchable.xml" value="0.27898550724637683" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
